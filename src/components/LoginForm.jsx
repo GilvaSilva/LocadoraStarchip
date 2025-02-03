@@ -21,29 +21,31 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="form-container">
-      <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Email</label>
-          <input
-            type="text"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label>Senha</label>
-          <input
-            type="password"
-            name="senha"
-            value={formData.senha}
-            onChange={handleChange}
-          />
-        </div>
-        <button type="submit">Entrar</button>
-      </form>
+    <div className="pagina-cadastro">
+      <div className="form-container">
+        <h2>Login</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="campo">
+            <label>Email</label>
+            <input
+              type="text"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="campo">
+            <label>Senha</label>
+            <input
+              type="password"
+              name="senha"
+              value={formData.senha}
+              onChange={handleChange}
+            />
+          </div>
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
     </div>
   );
 };

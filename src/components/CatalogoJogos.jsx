@@ -1,4 +1,3 @@
-import Cabecalho from "./Cabecalho";
 import CardJogo from "./CardJogo";
 import React, { useState } from "react";
 import './CatalogoJogos.css';
@@ -42,8 +41,7 @@ const Catalogo = () => {
     });
 
     return (
-        <div>
-            <Cabecalho />
+        <div className="container-catalogo">
             <div className="filtro">
                 <form>
                     <div className="search-icon">

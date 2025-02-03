@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Cabecalho from './components/Cabecalho';
 import LandingPage from "./components/LandingPage";
 import Catalogo from "./components/CatalogoJogos"; // Importe o componente do catálogo
+import Footer from "./components/Rodape"
 
 import "./App.css"; // Se quiser adicionar algum estilo global
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/cadastro" element={<CadastroClienteForm />} /> {/* Rota para o cadastro */}
           <Route path="/catalogo" element={<Catalogo />} /> {/* Rota para o catálogo */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -12,6 +12,7 @@
     flex-direction: line;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 4%;
   }
 
 .catalogo {
