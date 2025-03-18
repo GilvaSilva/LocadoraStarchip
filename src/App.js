@@ -1,11 +1,11 @@
 import React from "react";
-import CadastroClienteForm from './components/CadastroClienteForm';
-import LoginForm from './components/LoginForm';
+import CadastroClienteForm from './view/components/CadastroClienteForm';
+import LoginForm from './view/components/LoginForm';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Cabecalho from './components/Cabecalho';
-import LandingPage from "./components/LandingPage";
-import Catalogo from "./components/CatalogoJogos"; // Importe o componente do catálogo
-import Footer from "./components/Rodape"
+import Cabecalho from './view/components/Cabecalho';
+import LandingPage from "./view/components/LandingPage";
+import Catalogo from "./view/components/CatalogoJogos"; // Importe o componente do catálogo
+import Footer from "./view/components/Rodape"
 
 import "./App.css"; // Se quiser adicionar algum estilo global
 
